@@ -1,0 +1,104 @@
+    @media (max-width: 767px) {
+    ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 15px;
+    }
+  }
+    @media (min-width: 768px) and (max-width: 1023px){
+    ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 15px;
+    }
+    .input-group-text {
+    border-right: 0px;
+    margin-bottom: 0em;
+    background-color: #fff!important;
+}
+.footer{
+  bottom: 0!important;
+  position: absolute!important;
+}
+  }
+  @media (width: 1024px){
+   ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 15px!important;
+    } 
+    .input-group{
+      height: 60px!important;
+    }
+    .input-group-text {
+    border-right: 0px;
+    margin-bottom: 0em;
+    background-color: #fff!important;
+}
+.footer{
+  bottom: 0!important;
+  position: absolute!important;
+}
+  }
+
+      @media (min-width: 992px) {
+    ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 20px;
+    }
+    .input-group{
+      height: 60px!important;
+    }
+    .login_btn{
+      line-height: 43px;
+      height: 60px;
+    }
+    .input-group-text {
+    border-right: 0px;
+    margin-bottom: 0em;
+    background-color: #fff!important;
+}
+.footer{
+  bottom: 0!important;
+  position: absolute!important;
+}
+  }
+  .form-control {
+ border-radius: 10px;
+}
+.input-group-text{
+  border-radius: 10px;
+}
+
+ @media (min-width: 1024px) and (max-width: 1199px){
+.input-group{
+      height: 45px!important;
+    }
+    .login_btn {
+      line-height: 35px;
+    height: 55px;
+}
+  }
+  @media (min-width: 1200px) and (max-width: 1399px){
+.input-group{
+      height: 45px!important;
+    }
+    .login_btn {
+      line-height: 40px;
+    height: 55px;
+}
+}
+@media (max-width: 767px){
+.input-group{
+      height: 45px!important;
+    }
+    .login_btn {
+      line-height: 40px;
+    height: 55px;
+}
+.footer{
+  bottom: 0!important;
+  position: absolute!important;
+}
+}

@@ -1,0 +1,29 @@
+    @media (max-width: 767px) {
+    ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 12px;
+    }
+  }
+    @media (min-width: 768px) and (max-width: 1023px){
+    ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 12px;
+    }
+  }
+
+      @media (min-width: 992px) {
+    ::placeholder{
+      color: #212121!important;
+      font-family: Poppins-Light!important;
+      font-size: 14px;
+    }
+  }
+
+    .form-control {
+ border-radius: 3px;
+}
+.input-group-text{
+  border-radius: 3px;
+}
